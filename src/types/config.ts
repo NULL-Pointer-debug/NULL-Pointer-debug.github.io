@@ -10,7 +10,7 @@ import type {
 export interface SiteConfig {
 	title: string;
 	subtitle: string;
-	siteURL: 'https://dashboard.github.io/'
+	siteURL: 'https://null-pointer-debug.github.io/'
 	keywords?: string[]; // 站点关键词，用于生成 <meta name="keywords">
 	siteStartDate?: string; // 站点开始日期，格式：YYYY-MM-DD，用于计算运行天数
 
