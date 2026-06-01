@@ -19,7 +19,7 @@ jobs:
         uses: pnpm/action-setup@v3
         with:
           version: 9
-          run_install: false
+          run_install: false   # 关键修复：避免自动安装
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
